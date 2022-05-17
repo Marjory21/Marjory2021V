@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box; 
+}
+
+body{
+  background-color: rgba(240, 144, 200, 0.774);
+  color: rgba(131, 29, 109, 0.712); 
+}
+
+
+
+
+.topnav{
+background-color: rgb(184, 144, 203);
+overflow: hidden;
+}
+
+.topnav a{
+  color: rgba(58, 4, 156, 0.603); 
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav a:hover{
+  background-color: rgb(219, 46, 133); 
+  color: rgba(74, 19, 105, 0.808);
+}
+
+
+/*Creates 3 equal columns that float next to each other*/
+  .column{
+   2px solid rgb(113, 23, 173);
+    <border-radius>: 5pc;
+    float: left;
+    width:33.33%;
+    padding:15px;
+  border: 2px solid rgb(155, 75, 230);
+    border-radius: 5pc;
+    margin: 15px;
+  }

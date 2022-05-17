@@ -1,0 +1,67 @@
+/* The container <div> - needed to position the dropdown content*/ 
+.dropdown{
+position: relative;
+display: inline-block;
+} 
+/* Dropdown Content (Hidden by Default) */ 
+.dropDownContent{
+  display: none;
+  position:absolute; 
+  background-color:skyblue;
+min-width: 150px;
+box-shadow:black; 
+z-index:1; 
+} 
+.dropdown:hover .dropDownContent{ 
+  display:block; 
+}
+/* Style The DropBox Button */
+.drpmenu{
+  background-color:lavender;
+  color:blueviolet;
+  padding:16px;
+  marging:10px;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .drpMenu{
+background-color: rgb(176, 149, 226);
+color: rgb(238, 190, 197);
+}
+/* Links inside the dropdown */
+.dropdown a{
+  color: rgb(190, 164, 236);
+  background-color: rgba(223, 151, 151, 0.534);
+  border: 1px solid azure;
+  padding:12px 16ps;
+  text-decoration:none;
+  display: none;
+}
+.dropdown:hover a{
+  display: block; 
+  background-color: rgba(224, 108, 211, 0.308);
+  color: rgba(61, 60, 61, 0.185);
+  border: 0.1px solid royalblue;
+}
+.dropdown:hover a:hover{
+  color: rgb(188, 230, 212);
+  background-color: rgb(92, 159, 204);
+  border: 1px solid olive;
+  padding:12px 16px;
+}
+.dropdown img{
+border:10px dotted #a4beda;
+}
+.dropdown img:hover{
+}
+}
+.caption{
+  display:none;
+}
+.dropdown:hover img:hover .caption{
+display: block;
+color: mediumpurple;
+background-color: rgb(107, 142, 194);
+}
